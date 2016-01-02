@@ -3,6 +3,24 @@ ViewPager that displays items from right to left for RTL locales and behaves lik
 
 ![RtlViewPager](http://i.stack.imgur.com/TZZLX.gif)
 
+Usage
+-------------
+In XML:
+
+    <klogi.com.viewpagerwithdifferentmenu.RtlViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+  
+In code:
+
+    TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
+    RtlViewPager viewPager = (RtlViewPager)findViewById(R.id.viewPager);
+    viewPager.setAdapter(new PagerAdapter(getSupportFragmentManager(), fragments));
+    tabLayout.setupWithViewPager(viewPager);      
+  
+
+
 Acknowledgment
 -------------
 This module was originally developed for Booking.com. With approval from Booking.com, this module was generalized and published on GitHub and jCenter. From my side, I did one important bugfix to enable TabLayout.
