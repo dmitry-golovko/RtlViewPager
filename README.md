@@ -1,6 +1,7 @@
-# RtlViewPager
+# RtlViewPager with TabLayout support
 ViewPager that displays items from right to left for RTL locales and behaves like a regular ViewPager otherwise
 
+![RtlViewPager](http://i.stack.imgur.com/TZZLX.gif)
 
 Acknowledgment
 -------------
