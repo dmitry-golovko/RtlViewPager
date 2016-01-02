@@ -242,7 +242,7 @@ public class RtlViewPager extends ViewPager {
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             if (!suppressOnPageChangeListeners) {
-                original.onPageScrolled(reverse(position), 1f - positionOffset, positionOffsetPixels);
+                original.onPageScrolled(reverse(position), - positionOffset, positionOffsetPixels);
             }
         }
 
