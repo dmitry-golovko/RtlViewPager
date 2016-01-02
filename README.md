@@ -5,6 +5,8 @@ ViewPager that displays items from right to left for RTL locales and behaves lik
 
 Usage
 -------------
+To use it - just copy PagerAdapterWrapper and RtlViewPager classes into your project.
+
 In XML:
 
     <klogi.com.viewpagerwithdifferentmenu.RtlViewPager
