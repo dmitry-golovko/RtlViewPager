@@ -5,11 +5,17 @@ ViewPager that displays items from right to left for RTL locales and behaves lik
 
 Usage
 -------------
-To use it - just copy `PagerAdapterWrapper` and `RtlViewPager` classes into your project.
+
+Import it using gradle
+
+    dependencies {
+        ...    
+        compile 'klogi.com:rtlviewpager:1.0.0'
+    }
 
 In XML:
 
-    <klogi.com.viewpagerwithdifferentmenu.RtlViewPager
+    <klogi.com.RtlViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
@@ -17,7 +23,7 @@ In XML:
 In code:
 
     TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
-    RtlViewPager viewPager = (RtlViewPager)findViewById(R.id.viewPager);
+    ViewPager viewPager = (RtlViewPager)findViewById(R.id.viewPager);
     viewPager.setAdapter(new PagerAdapter(getSupportFragmentManager(), fragments));
     tabLayout.setupWithViewPager(viewPager);      
   
