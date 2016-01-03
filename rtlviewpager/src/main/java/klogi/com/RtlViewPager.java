@@ -1,4 +1,5 @@
 /*
+ * Copyright 2016 Konstantin Loginov
  * Copyright 2015 Diego Gómez Olvera
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.booking.rtlviewpager;
+package klogi.com;
 
 
 import android.content.Context;

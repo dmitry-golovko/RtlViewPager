@@ -1,1 +1,1 @@
-include ':sample', ':rtlviewpager'
+include ':rtlviewpager'
