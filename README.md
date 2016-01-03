@@ -36,6 +36,7 @@ This module was originally developed for Booking.com. With approval from Booking
 License
 -------------
 > Copyright 2016 Konstantin Loginov
+
 > Copyright 2015 Diego Gómez Olvera
 
 > Licensed under the Apache License, Version 2.0 (the "License");
