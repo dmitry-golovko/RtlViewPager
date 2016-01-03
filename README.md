@@ -23,7 +23,7 @@ In XML:
 In code:
 
     TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
-    ViewPager viewPager = (RtlViewPager)findViewById(R.id.viewPager);
+    RtlViewPager viewPager = (RtlViewPager)findViewById(R.id.viewPager);
     viewPager.setAdapter(new PagerAdapter(getSupportFragmentManager(), fragments));
     tabLayout.setupWithViewPager(viewPager);      
   
