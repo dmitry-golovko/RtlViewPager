@@ -3,6 +3,10 @@ ViewPager that displays items from right to left for RTL locales and behaves lik
 
 ![Image of RtlViewPager](http://i.stack.imgur.com/dIhuy.gif)
 
+With modified tab layout
+
+![Image of RtlViewPager](http://cdn.makeagif.com/media/2-08-2016/na7MlX.gif)
+
 Usage
 -------------
 
