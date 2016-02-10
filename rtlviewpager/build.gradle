@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 
-ext {
+/*ext {
 
     PUBLISH_GROUP_ID = 'klogi.com'
     PUBLISH_ARTIFACT_ID = 'rtlviewpager'
@@ -23,7 +23,7 @@ ext {
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
-}
+}*/
 
 android {
     compileSdkVersion 23
@@ -48,4 +48,4 @@ dependencies {
     compile 'com.android.support:support-annotations:23.1.1'
 }
 
-apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+//apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
