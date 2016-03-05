@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package klogi.com;
+package android.support.v4.view;
 
 import android.database.DataSetObserver;
 import android.os.Parcelable;
@@ -48,6 +48,11 @@ class PagerAdapterWrapper extends PagerAdapter {
     @Override
     public boolean isViewFromObject(View view, Object object) {
         return adapter.isViewFromObject(view, object);
+    }
+
+    @Override
+    void setViewPagerObserver(DataSetObserver observer) {
+        adapter.setViewPagerObserver(observer);
     }
 
     @Override
