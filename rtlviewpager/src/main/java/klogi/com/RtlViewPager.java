@@ -124,17 +124,17 @@ public class RtlViewPager extends ViewPager {
         unregisterRtlDataSetObserver();
 
         final boolean rtlReady = adapter != null && isRtl();
-        /*if (rtlReady) {
+        if (rtlReady) {
             adapter = new ReverseAdapter(adapter);
             registerRtlDataSetObserver(adapter);
-        }*/
+        }
         super.setAdapter(adapter);
         if (rtlReady) {
             setCurrentItemWithoutNotification(0);
         }
     }
 
-    public void setCurrentItemWithoutNotification(int index) {
+    private void setCurrentItemWithoutNotification(int index) {
         suppressOnPageChangeListeners = true;
         setCurrentItem(index, false);
         suppressOnPageChangeListeners = false;
